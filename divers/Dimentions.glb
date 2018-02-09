@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MAIN>
+<GEODOCMANAGER aligngrille="true" angle="0" colgrille="-3618616" comauto="false" commentaires="" debx="-7.780415810900156" deby="-4.326661530556787" desgrille="1" eq="0" finx="8.999827521056474" finy="4.326661530556787" gradx="1.0" grady="1.0" grilx="1.0" grily="1.0" rapport="1.0" visaxe="true" visgrad="true" visgrille="true" visnb="false"/>
+<GEOVECTOR>
+<AXE fictif="false" nom="(Ox)" vertical="false">
+<GEOASPECTLIGNE couleur="-65536" dash="0" epaisseur="0" istrace="false" visible="true"/>
+</AXE>
+<AXE fictif="false" nom="(Oy)" vertical="true">
+<GEOASPECTLIGNE couleur="-65536" dash="0" epaisseur="0" istrace="false" visible="true"/>
+</AXE>
+<POINTINTERDROITE d1="(Ox)" d2="(Oy)" fictif="false" nom="o">
+<GEOASPECTPOINT affichenom="true" couleur="-65536" decx="-5" decy="-7" font="Dialog" istrace="false" style="0" symbole="1" taille="12" visible="false"/>
+</POINTINTERDROITE>
+<POINTLIBRE nom="A" x="0.0" y="0.0">
+<GEOASPECTPOINT affichenom="false" couleur="-16777216" decx="-5" decy="-7" font="Dialog" istrace="false" style="0" symbole="5" taille="12" visible="true"/>
+</POINTLIBRE>
+<POINTLIBRE nom="B" x="-3.0" y="-2.0">
+<GEOASPECTPOINT affichenom="false" couleur="-16777216" decx="-5" decy="-7" font="Dialog" istrace="false" style="0" symbole="5" taille="12" visible="true"/>
+</POINTLIBRE>
+<CERCLE2PTS fictif="false" nom="C1" p="A" p2="B">
+<GEOASPECTFIG c="-16777216" dash="0" epaisseur="0" istrace="false" type="0" visible="true"/>
+</CERCLE2PTS>
+<POINTSUR accueil="C1" contrainte="0.0" fictif="false" nom="C" x="3.605551275463989" y="0.0">
+<GEOASPECTPOINT affichenom="false" couleur="-16777216" decx="-5" decy="-7" font="Dialog" istrace="false" style="0" symbole="5" taille="12" visible="true"/>
+</POINTSUR>
+<SEGMENT fictif="false" nom="" p1="A" p2="C">
+<GEOASPECTSEGMENT couleur="-16777216" dash="0" epaisseur="0" istrace="false" traits="0" visible="true"/>
+</SEGMENT>
+<POINTSUR accueil="C1" contrainte="0.3398369094541219" fictif="false" nom="D" x="3.3993463423951895" y="1.201850425154663">
+<GEOASPECTPOINT affichenom="false" couleur="-16777216" decx="-5" decy="-7" font="Dialog" istrace="false" style="0" symbole="5" taille="12" visible="true"/>
+</POINTSUR>
+<CERCLE2PTS fictif="false" nom="C2" p="C" p2="D">
+<GEOASPECTFIG c="-16777216" dash="0" epaisseur="0" istrace="false" type="0" visible="true"/>
+</CERCLE2PTS>
+<SEGMENT fictif="false" nom="" p1="A" p2="D">
+<GEOASPECTSEGMENT couleur="-16777216" dash="0" epaisseur="0" istrace="false" traits="0" visible="true"/>
+</SEGMENT>
+<POINTINTERCERCLECERCLE c1="C1" c2="C2" fictif="false" nom="E" prem="true">
+<GEOASPECTPOINT affichenom="false" couleur="-16777216" decx="-5" decy="-7" font="Dialog" istrace="false" style="0" symbole="5" taille="12" visible="true"/>
+</POINTINTERCERCLECERCLE>
+<SEGMENT fictif="false" nom="" p1="A" p2="E">
+<GEOASPECTSEGMENT couleur="-16777216" dash="0" epaisseur="0" istrace="false" traits="0" visible="true"/>
+</SEGMENT>
+</GEOVECTOR>
+</MAIN>
